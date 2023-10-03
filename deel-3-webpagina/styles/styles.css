@@ -1,1 +1,78 @@
-/*Schrijf hier jouw css*/
+/* Global */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', 'Arial', sans-serif;
+}
+
+
+:root {
+    --space-cadet: #151e3fff;
+    --oxford-blue: #030027ff;
+    --beige: #f2f3d9ff;
+    --buff: #dc9e82ff;
+    --old-rose: #c16e70ff;
+}
+
+body {
+    background-color: #f2f3d9ff;;
+    color: #151e3fff;
+    text-align: center;
+}
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #030027ff;
+    color: white;
+    padding: 30px 40px;
+}
+
+
+.analytica {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.navigation ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 400px;
+    flex-shrink: 1;
+    flex-grow: 0;
+    list-style: none;
+}
+
+.introduction {
+    padding: 40px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+.flex-item {
+    background-color:  #c16e70ff;
+    max-width: 280px;
+    height: 350px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    flex-basis: 280px;
+    flex-shrink: 1;
+    flex-grow: 0;
+
+    border-radius: 5px;
+}
+
